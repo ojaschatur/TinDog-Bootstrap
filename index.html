@@ -18,6 +18,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"
     rel="stylesheet">
+    <link rel="icon" href="tinder.png">
 </head>
 
 <body>
@@ -154,22 +155,25 @@
 
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <div class="pricing-text">
+      <h2>A Plan for Every Dog's Needs</h2>
+      <p>Simple and affordable price plans for your and your dog.</p>
+    </div>
+
 
     <div class="row">
 
       <div class="pricing-col col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Chihuahua</h3>
+            <h3 class="card-head-text">Chihuahua</h3>
           </div>
           <div class="card-body">
             <h2>Free</h2>
             <p>5 Matches Per Day</p>
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
-            <button class="btn btn-lg btn-block btn-outline-dark col-12" type="button">Sign Up</button>
+            <button class="btn btn-lg btn-block btn-dark col-12" type="button">Sign Up</button>
           </div>
         </div>
       </div>
@@ -177,12 +181,12 @@
       <div class="pricing-col col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Labrador</h3>
+            <h3 class="card-head-text">Labrador</h3>
           </div>
           <div class="card-body">
             <h2>$49 / mo</h2>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
+            <p>15 Matches Per Day</p>
+            <p>50 Messages Per Day</p>
             <p>Unlimited App Usage</p>
             <button class="btn btn-lg btn-block btn-dark col-12" type="button">Sign Up</button>
           </div>
@@ -192,11 +196,10 @@
       <div class="pricing-col col-lg-4">
         <div class="card">
           <div class="card-header">
-            <h3>Mastiff</h3>
+            <h3 class="card-head-text">Mastiff</h3>
           </div>
           <div class="card-body">
             <h2>$99 / mo</h2>
-            <p>Pirority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
@@ -207,15 +210,6 @@
 
     </div>
 
-
-
-
-
-
-
-
-
-
   </section>
 
 
@@ -223,9 +217,9 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-text">Find the True Love of Your Dog's Life Today.</h3>
+    <button class="button-cta btn btn-lg btn-dark" type="button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button class="button-cta btn btn-lg btn-light" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
 
   </section>
 
@@ -234,7 +228,14 @@
 
   <footer id="footer">
 
-    <p>© Copyright TinDog</p>
+    <section class="socials">
+      <i class="brand fa-brands fa-twitter"></i>
+      <i class="brand fa-brands fa-facebook"></i>
+      <i class="brand fa-brands fa-instagram"></i>
+      <i class="brand fa-solid fa-envelope"></i>
+    </section>
+
+    <p class="copyright">© Copyright 2023 TinDog</p>
 
   </footer>
 
